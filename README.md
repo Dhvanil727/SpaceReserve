@@ -31,6 +31,7 @@ In modern hybrid work environments, managing office seats manually often leads t
 ✅ SpaceReserve solves this problem by offering a centralized, automated, and secure seat reservation platform.
 
 ✨ Features
+
 🔐 Authentication & Authorization
 
 🔑 Integrated Keycloak for authentication and authorization
@@ -57,11 +58,17 @@ In modern hybrid work environments, managing office seats manually often leads t
 
 
 🎨 Seat Status & Color Coding Color Meaning
+ 
 🟦 Blue	Booked by regular users
+
 🟩 Green	Booked by WFH users
+
 🟥 Red	Reserved by Admin (HR / Management)
+
 🟨 Yellow	Under maintenance
+
 ⚪ Gray	Available
+
 📆 Booking System
 
 🗓 Book seats for a selected date
@@ -111,6 +118,7 @@ In modern hybrid work environments, managing office seats manually often leads t
  - Request validation using FluentValidation
 
  Tech Stack
+ 
 🔹 Backend
 
  - ASP.NET Core Web API (.NET 8)
@@ -134,4 +142,5 @@ In modern hybrid work environments, managing office seats manually often leads t
 👨‍💻 Author
 
 Dhvanil Patel
+
 .NET Backend Developer
