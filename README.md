@@ -145,6 +145,26 @@ In modern hybrid work environments, managing office seats manually often leads t
 
  - Swagger (API Documentation)
 
+
+## 📸 Application Screenshots
+
+> Screenshots shown below are from the frontend application integrated with the SpaceReserve backend APIs.
+
+### 🏠 Home Page
+![Home Page](Screenshots/home.png)
+
+### 🪑 Book Seat Page
+![Book Seat Page](Screenshots/book-seat.png)
+
+### 📆 Booking History
+![Booking History](Screenshots/booking-history.png)
+
+### 👤 User Profile
+![User Profile](Screenshots/profile.png)
+
+### 📧 Email History
+![Email History](Screenshots/email-history.png)
+
 👨‍💻 Author
 
 Dhvanil Patel
