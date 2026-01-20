@@ -2,11 +2,17 @@ SpaceReserve – Smart Workspace Seat Booking System
 
 SpaceReserve is a seat reservation and workspace management system designed to efficiently manage office seating for:
 
-🏢 On-site employees
+- On-site employees
 
-🏠 WFH employees
+- WFH employees
 
-🔄 Hybrid employees
+- Hybrid employees
+
+> ⚠️ **Note:**  
+
+> This repository contains the **backend implementation** of the SpaceReserve system.  
+
+> The screenshots below are from the frontend application, which consumes these APIs.
 
 It provides:
 
@@ -22,21 +28,21 @@ It provides:
 
 In modern hybrid work environments, managing office seats manually often leads to:
 
-❌ Double bookings
+- Double bookings
 
-❌ Poor space utilization
+- Poor space utilization
 
-❌ Lack of transparency
+- Lack of transparency
 
-✅ SpaceReserve solves this problem by offering a centralized, automated, and secure seat reservation platform.
+- SpaceReserve solves this problem by offering a centralized, automated, and secure seat reservation platform.
 
 ✨ Features
 
 🔐 Authentication & Authorization
 
-🔑 Integrated Keycloak for authentication and authorization
+- Integrated Keycloak for authentication and authorization
 
-🖥 Secure login & registration via Keycloak UI
+- Secure login & registration via Keycloak UI
 
 🛡 Role-Based Access Control (RBAC):
 
