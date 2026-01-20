@@ -1,139 +1,137 @@
 SpaceReserve – Smart Workspace Seat Booking System
 
-SpaceReserve is a seat reservation and workspace management system designed to efficiently manage office seating for hybrid, WFH, and on-site employees.
-It provides secure authentication, role-based access, and real-time seat availability with intuitive status and color coding.
+SpaceReserve is a seat reservation and workspace management system designed to efficiently manage office seating for:
 
-📌 Problem Statement
+🏢 On-site employees
 
-In modern hybrid work environments, managing office seats manually leads to:
+🏠 WFH employees
 
-Double bookings
+🔄 Hybrid employees
 
-Poor space utilization
+It provides:
 
-Lack of transparency
+- Secure authentication
 
-SpaceReserve solves this by offering a centralized, automated, and secure seat reservation platform.
+- Role-based access
+
+- Real-time seat availability
+
+- Intuitive seat status & color coding
+
+ Problem Statement
+
+In modern hybrid work environments, managing office seats manually often leads to:
+
+❌ Double bookings
+
+❌ Poor space utilization
+
+❌ Lack of transparency
+
+✅ SpaceReserve solves this problem by offering a centralized, automated, and secure seat reservation platform.
 
 ✨ Features
-
 🔐 Authentication & Authorization
 
-Integrated Keycloak for authentication and authorization
+🔑 Integrated Keycloak for authentication and authorization
 
-Secure login & registration via Keycloak UI
+🖥 Secure login & registration via Keycloak UI
 
-Role-based access control (RBAC)
+🛡 Role-Based Access Control (RBAC):
 
-Admin
+- Admin
 
-User
-
+- User
 
 🪑 Seat Management
 
-View all seats based on:
+🔍 View all seats based on:
 
-📅 Date
+- Date
 
-🌆 City
+- City
 
-🏢 Floor
+- Floor
 
-Real-time seat availability
+⏱ Real-time seat availability
 
-Single API to fetch all seats with computed status
 
-🎨 Seat Status & Color Coding Status	Meaning
-
+🎨 Seat Status & Color Coding Color Meaning
 🟦 Blue	Booked by regular users
-
 🟩 Green	Booked by WFH users
-
-🟥 Red	Reserved by Admin (HR, Management)
-
+🟥 Red	Reserved by Admin (HR / Management)
 🟨 Yellow	Under maintenance
-
 ⚪ Gray	Available
-
-
 📆 Booking System
 
-Book seats for a selected date
+🗓 Book seats for a selected date
 
-Prevents double booking
+🚫 Prevents double booking
 
-Handles:
+🧑‍💼 Handles different booking types:
 
-Hybrid users
+- Hybrid users
 
-Regular users
+- Regular users
 
-Admin reservations
+- Admin reservations
 
-Automatically updates seat status
-
+🔄 Automatically updates seat status
 
 🛠 Admin Capabilities
 
-Reserve seats for specific users
+ - Reserve seats for specific users
 
-Configure seat availability
+ - Configure seat availability
 
-Mark seats under maintenance
+ - Mark seats under maintenance
 
-Manage seat configurations
-
+ - Manage seat configurations
 
 ⚙ Backend Architecture
 
-3-Tier Architecture:
+ - 3-Tier Architecture:
 
-Presentation Layer (API)
+ - Presentation Layer (API)
 
-Business Layer (Services)
+ - Business Layer (Services)
 
-Infrastructure Layer (Repositories)
+ - Infrastructure Layer (Repositories)
 
-Clean separation of concerns
+ - Clean separation of concerns
 
+ - Common Utilities
 
-📄 Common Utilities
+ - Global exception handling
 
-Global exception handling
+ - Common API response structure
 
-Common API response structure
+ - Logging using Log4Net
 
-Logging using Log4Net
+ - Request validation using FluentValidation
 
-FluentValidation for request validation
+ Tech Stack
+🔹 Backend
 
-🧱 Tech Stack
+ - ASP.NET Core Web API (.NET 8)
 
-Backend
+ - Entity Framework Core
 
-ASP.NET Core Web API (.NET 8)
+ - SQL Server
 
-Entity Framework Core
+ - Keycloak (OIDC)
 
-SQL Server
+🔹 Tools & Libraries
 
-Keycloak (OIDC)
+ - FluentValidation
 
+ - Log4Net
 
-Tools & Libraries
+ - JWT / OIDC
 
-FluentValidation
-
-Log4Net
-
-JWT / OIDC
-
-Swagger (API documentation)
-
+ - Swagger (API Documentation)
 
 👨‍💻 Author
 
 Dhvanil Patel
-
 .NET Backend Developer
