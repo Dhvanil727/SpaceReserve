@@ -44,12 +44,16 @@ Real-time seat availability
 
 Single API to fetch all seats with computed status
 
-🎨 Seat Status & Color Coding
-Status	Meaning
+🎨 Seat Status & Color Coding Status	Meaning
+
 🟦 Blue	Booked by regular users
+
 🟩 Green	Booked by WFH users
+
 🟥 Red	Reserved by Admin (HR, Management)
+
 🟨 Yellow	Under maintenance
+
 ⚪ Gray	Available
 
 
@@ -60,17 +64,26 @@ Book seats for a selected date
 Prevents double booking
 
 Handles:
+
 Hybrid users
+
 Regular users
+
 Admin reservations
+
 Automatically updates seat status
 
 
 🛠 Admin Capabilities
+
 Reserve seats for specific users
+
 Configure seat availability
+
 Mark seats under maintenance
+
 Manage seat configurations
+
 
 ⚙ Backend Architecture
 
@@ -88,28 +101,39 @@ Clean separation of concerns
 📄 Common Utilities
 
 Global exception handling
+
 Common API response structure
+
 Logging using Log4Net
+
 FluentValidation for request validation
 
 🧱 Tech Stack
+
 Backend
 
 ASP.NET Core Web API (.NET 8)
+
 Entity Framework Core
+
 SQL Server
+
 Keycloak (OIDC)
 
 
 Tools & Libraries
 
 FluentValidation
+
 Log4Net
+
 JWT / OIDC
+
 Swagger (API documentation)
 
 
 👨‍💻 Author
 
 Dhvanil Patel
+
 .NET Backend Developer
